@@ -1,0 +1,19 @@
+{
+  "apiVersion": "v1",
+  "kind": "PersistentVolume",
+  "metadata": {
+    "name": "logging-pv-nfs-pod"
+  },
+  "spec": {
+    "capacity": {
+        "storage": "10Gi"
+    },
+    "accessModes": [ "ReadWriteOnce" ],
+    "nfs": {
+        "path": "/",
+        "server": "172.30.150.45"
+    },
+    "persistentVolumeReclaimPolicy": "Recycle"
+  }
+}
+
