@@ -11,7 +11,7 @@
     "accessModes": [ "ReadWriteOnce" ],
     "nfs": {
         "path": "/",
-        "server": "172.30.150.45"
+        "server": "172.30.215.9"
     },
     "persistentVolumeReclaimPolicy": "Recycle"
   }
