@@ -10,8 +10,8 @@
     },
     "accessModes": [ "ReadWriteOnce" ],
     "nfs": {
-        "path": "/xiazhao-metrics-1",
-        "server": "localhost"
+        "path": "/home/data/xiazhao-metrics",
+        "server": "10.14.6.144"
     }
   }
 }
